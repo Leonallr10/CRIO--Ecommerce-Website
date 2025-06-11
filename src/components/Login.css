@@ -1,0 +1,29 @@
+.content {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.form {
+  width: 100%;
+  max-width: 400px;
+}
+
+.title {
+  text-align: center;
+}
+
+.button {
+  margin-top: 1rem;
+}
+
+.secondary-action {
+  text-align: center;
+}
+
+.link {
+  color: #1976d2;
+  text-decoration: none;
+}
