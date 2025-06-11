@@ -34,7 +34,7 @@
     "start": "react-scripts start",
     "start:windows": "set PORT=8081 && react-scripts start",
     "start:unix": "PORT=8081 react-scripts start",
-    "build": "set NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "build": "export NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
     "test": "react-scripts test --json --outputFile=testReport.json --watchAll=false",
     "eject": "react-scripts eject"
   },
